@@ -69,5 +69,5 @@ $postData = array(
     'date' => date('Y-m-d H:i:s'),
 );
 $adminUsername = 'ADMIN_NAME'; 
-$local_result = localAPI($command, $postData, $adminUsername);
+localAPI($command, $postData, $adminUsername);
 
